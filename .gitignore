@@ -3,3 +3,8 @@
 ################################################################################
 
 /node_modules/.bin
+/node_modules
+/NodejsWebApp1.njsproj
+/__rzi_0.265
+/README.md
+/typings

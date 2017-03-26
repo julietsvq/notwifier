@@ -171,7 +171,7 @@ function cleanText(text) {
     var urlLess_text = text.replace(/(?:https?|ftp):\/\/[\n\S]+/g, '');
     var mentionLess_text = urlLess_text.replace(/\B@[a-z0-9_-]+/gi, '');
 
-    return urlLess_text;
+    return mentionLess_text;
 }
 
 listenQueue();
